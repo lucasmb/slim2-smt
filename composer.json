@@ -1,0 +1,23 @@
+{
+	"name": "slim2-smt",
+    "description": "Slim 2 - Skeleton with MongoDB & Twig",
+    "keywords": ["slimphp, twig, mongodb, skeleton, php"],
+    "authors": [
+        {
+            "name": "lucasmb"
+        }
+    ],
+    "homepage": "https://github.com/lucasmb/slim2-smt",
+    "type": "slim php skeleton",
+    "license": "MIT",
+    "require": {
+        "slim/slim": "^2.6",
+        "monolog/monolog": "^1.17",
+        "slim/views": "^0.1.3",
+        "twig/twig": "^1.22",
+        "league/monga": "^1.1"
+    },
+    "autoload": {
+            "psr-4": {"slimSMT\\": "app"}
+        }
+}

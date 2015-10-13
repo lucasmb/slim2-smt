@@ -1,6 +1,37 @@
-composer.phar
-vendor/
+#---- slim app ---------
 
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+app/cache/*
+app/logs/*
+vendor/*
+composer.phar
+*.log
+
+# -- Ides ------------------------------
+# phpstorm
+.idea/
+
+# sublimetext
+/*.sublime-project
+*.sublime-workspace
+
+# -- SO ------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ 
+# Linux
+.*
+!.gitignore
+!.htaccess
+*~
+ 
+# Mac OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
